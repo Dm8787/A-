@@ -88,8 +88,74 @@
     <section class="contacts">
       <div class="container">
         <h2 class="contacts-title">Обратная связь</h2>
-        <form action="" class="contacts-form"></form>
+        <form action="" class="contacts-form">
+          <table>
+            <tr>
+              <td class="title">
+                <label for="fullname">ФИО</label>
+              </td>
+              <td class="filed">
+                <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста">
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                <label for="age">Возраст:</label>
+              </td>
+              <td class="filed">
+                <input type="text" name="age" id="age" placeholder="Укажите возраст, хотя бы приблизительно">
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                 <label for="">Пол</label>
+              </td>
+              <td class="filed">
+               <label><input type="radio" name="sex" id="man" checked>Мужчина</label>
+               <label><input type="radio" name="sex" id="woman">Женщина</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                <label for="message">Вопрос:</label>
+              </td>
+              <td class="filed">
+                <textarea name="message" id="message" cols="" rows="" placeholder="Сообщите всё, что считаете нужным"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td class="title"></td>
+              <td class="filed">
+                <input type="submit" class="npt npt-green" value="Отправить">
+              </td>
+            </tr>
+          </table>
+        </form>
+        <div class="contacts-instruction">
+          <h3>Заинтересовались обучением на нашей кафедере</h3>
+          <p>Заполните короткую форму обратной связи и отправьте нам</p>
+          <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+          <p class="contacts-alert"><strong>Внимание!</strong> Все поля обязательны для заполнения.</p>
+        </div>
       </div>
     </section>
+    <footer>
+      <div class="container">
+      <div class="footer-top">
+        <div class="footer-address">
+
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <img src="img/logo-footer.png" alt="A+" width="180" height="81">
+        </div>
+        <p>197101, г. Санкт-Петербург,<br> пр. Кронверкский, д. 49</p>
+      </div>
+      <div class="footer-menu">
+        <h3>Обучение</h3>
+      </div>
+      </div>
+    </footer>
   </body>
 </html>
